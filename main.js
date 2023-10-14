@@ -7,6 +7,8 @@ $(function () {
     let objPeldany = event.detail;
     objPeldany.setHatterszin();
     TODOLIST2[objPeldany.index].kesz = true;
+    szuloELEM.empty();
+    new Megjelenit(TODOLIST2, szuloELEM);
   });
   $(window).on("torles", (event) => {
     let objPeldany = event.detail;
