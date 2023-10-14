@@ -36,7 +36,7 @@ class MegjelenitSor {
         txt += `<td>${this.#adat[key]}</td>`;
       }
     }
-    txt += `<td><span class="kesz">✔️</span> <span class="torol">🗑</span></td>`;
+    txt += `<td><span class="kesz">✔️</span> <span class="megse">❌</span> <span class="torol">🗑</span></td>`;
     txt += "</tr>";
     this.tablaElem.append(txt);
   }
